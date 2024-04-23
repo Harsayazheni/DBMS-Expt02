@@ -14,5 +14,9 @@ CREATE TABLE Students (
     birth_date DATE
 );
 ```
+#### Output
+![Screenshot 2024-04-23 185306](https://github.com/Harsayazheni/DBMS-Expt02/assets/118708467/ea121922-a4f7-4d49-a515-1662f5cf9c1d)
+
+### 
 ## Result
 Thus , Create , Alter and Insert in SQL is practiced successfully.
