@@ -3,7 +3,7 @@
 ## Aim
 To learn and practice the uses of Create , Alter and Insert in SQL.
 
-### Create a table name as "Students" with the following attributes
+### 1.Create a table name as "Students" with the following attributes
 ![Screenshot 2024-04-23 185111](https://github.com/Harsayazheni/DBMS-Expt02/assets/118708467/9bf6a267-502f-43eb-a1a5-c2d76fcd6dd9)
 #### Program
 ```
