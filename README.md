@@ -59,6 +59,31 @@ CREATE TABLE Orders (
 #### Output
 ![Screenshot 2024-04-24 131310](https://github.com/Harsayazheni/DBMS-Expt02/assets/118708467/6928f42a-c3f3-4763-92db-fb97bd42b72d)
 
+### 4.Create a table name as "Students" with the following attributes
+![Screenshot 2024-04-24 132306](https://github.com/Harsayazheni/DBMS-Expt02/assets/118708467/63b583f9-0473-429d-8b2d-bdbc67eceea1)
+
+rollno as integeprimarykey with autoincrement
+stu_name as varchar(50)
+year as varchar(30)
+parentsoccupation as varchar(30)
+address as varchar(30)
+![Screenshot 2024-04-24 132332](https://github.com/Harsayazheni/DBMS-Expt02/assets/118708467/69873f86-af0d-4b67-a03b-c2498fb63430)
+
+#### Program
+```
+CREATE TABLE Students (
+    rollno INTEGER PRIMARY KEY AUTOINCREMENT,
+    stu_name VARCHAR(50),
+    year VARCHAR(30),
+    parents_occupation VARCHAR(30),
+    address VARCHAR(30)
+);
+
+```
+#### Output
+![Uploading Screenshot 2024-04-24 132352.png…]()
+
+
 
 
 
