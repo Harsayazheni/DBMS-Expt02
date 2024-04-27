@@ -73,7 +73,7 @@ Syntax: CREATE TABLE Table_Name(col_name1,col_name2,col_name3 DEFAULT ‘’);
 
 ### 1.Create a table name as "Students" with the following attributes
 ![Screenshot 2024-04-23 185111](https://github.com/Harsayazheni/DBMS-Expt02/assets/118708467/9bf6a267-502f-43eb-a1a5-c2d76fcd6dd9)
-#### Program
+#### Query
 ```
 CREATE TABLE Students (
     id integer PRIMARY KEY AUTOINCREMENT,
@@ -89,7 +89,7 @@ CREATE TABLE Students (
 ### 2.Write a SQL Query for creating a table name as "Students" with the following attributes
 ![Screenshot 2024-04-24 131025](https://github.com/Harsayazheni/DBMS-Expt02/assets/118708467/12778c47-8872-4575-921d-17d8e5f6d1b2)
 
-#### Program
+#### Query
 ```
 CREATE TABLE Students (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -113,7 +113,7 @@ PersonID as INTEGER  not null (Specify PersonID as a Foreign Key referencing the
 ![Screenshot 2024-04-24 131220](https://github.com/Harsayazheni/DBMS-Expt02/assets/118708467/1abfc347-b28c-459c-8933-7052e86b564b)
 
 
-#### Program
+#### Query
 ```
 CREATE TABLE Orders (
     OrderID INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
@@ -137,7 +137,7 @@ parentsoccupation as varchar(30)
 address as varchar(30)
 ![Screenshot 2024-04-24 132332](https://github.com/Harsayazheni/DBMS-Expt02/assets/118708467/69873f86-af0d-4b67-a03b-c2498fb63430)
 
-#### Program
+#### Query
 ```
 CREATE TABLE Students (
     rollno INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -155,7 +155,7 @@ CREATE TABLE Students (
 ### 5.Write a SQL query to Add a new column Mobilenumber as number in the Student_details table.
 ![Screenshot 2024-04-24 141706](https://github.com/Harsayazheni/DBMS-Expt02/assets/118708467/5643ebfb-2edd-45db-9ac6-440ac9b98d89)
 
-#### Program
+#### Query
 ```
 ALTER TABLE Student_details
 ADD COLUMN Mobilenumber number;
@@ -167,7 +167,7 @@ ADD COLUMN Mobilenumber number;
 ![Screenshot 2024-04-24 141835](https://github.com/Harsayazheni/DBMS-Expt02/assets/118708467/7b1d050b-3637-43f9-8054-bc499e72ccc9)
 
 
-#### Program
+#### Query
 ```
 ALTER TABLE employee
 ADD COLUMN birth_date date;
@@ -179,7 +179,7 @@ ADD COLUMN birth_date date;
 ![Screenshot 2024-04-24 142025](https://github.com/Harsayazheni/DBMS-Expt02/assets/118708467/2161440c-e476-4cc8-acf4-6b61fe124efa)
 
 
-#### Program
+#### Query
 ```
 ALTER TABLE customer
 ADD COLUMN discount DECIMAL(5,2);
@@ -192,7 +192,7 @@ ADD COLUMN discount DECIMAL(5,2);
 
 
 
-#### Program
+#### Query
 ```
 INSERT INTO Student_database (fname, lname, Gender, Subject, MARKS)
 VALUES 
@@ -211,7 +211,7 @@ VALUES
 
 
 
-#### Program
+#### Query
 ```
 INSERT INTO Student_database (fname, lname, Gender, Subject, MARKS) 
 VALUES 
@@ -230,7 +230,7 @@ VALUES
 
 
 
-#### Program
+#### Query
 ```
 INSERT INTO new_customers (customer_id, name, email)
 SELECT customer_id, name, email
@@ -244,4 +244,4 @@ WHERE name = 'James';
 
 
 ## Result!
-Thus , Create , Alter and Insert in SQL is practiced successfully.
+Thus , to study and implement DDL commands and different types of constraints.
